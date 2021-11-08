@@ -1,0 +1,210 @@
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* SUPERINFO */
+
+.superinfo-bg{
+    background: #122ab2;
+    color: #FFF;
+}
+
+.superinfo{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.superinfo a{
+    color: #FFF;
+}
+
+.superinfo p, .superinfo a{
+    margin: 10px;
+}
+
+/* MENU */
+
+.menu-bg{
+    background: #2C70FF;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: #FFF;
+}
+
+.menu-logo{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    font-size: 1.25rem;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #000;
+    transition: .4s, color .6s;
+}
+
+/* INTRODUÇÃO */
+
+.introducao{
+    font-size: 3rem;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+/* SOBRE */
+
+.sobre{
+    
+    border-top: 2px solid #2C70FF;
+    border-bottom: 2px solid #2C70FF;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-info h1{
+    font-size: 3rem;
+    margin-bottom: .3em;
+    
+}
+
+.sobre-info p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+/* PRODUTOS */
+
+.produtos{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1{
+    font-size: 3rem;
+    margin: 0 10px 60px 10px;
+}
+
+.produtos-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtos-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2{
+    font-size: 2.25rem;
+    color: #A4A4A4;
+    background: #F7F7F7;
+    padding: 60px 20px;
+}
+
+.purple{
+    border-top: 8px solid #ae81ff;
+}
+
+.pink{
+    border-top: 8px solid #f9265e;
+}
+
+.blue{
+    border-top: 8px solid #66d9eb;
+}
+
+
+/* PRODUTOS ITEM */
+
+.pink a{
+    color: #000;
+}
+
+.pink a:hover{
+    color: #fe4d7d;
+    transition: .4s, color .6s;
+}
+
+.purple a{
+    color: #000;
+}
+
+.purple a:hover{
+    color: #ae81ff;
+    transition: .4s, color .6s;
+}
+
+.blue a{
+    color: #000;
+}
+
+.blue a:hover{
+    color: #66d9eb;
+    transition: .4s, color .6s;
+}
